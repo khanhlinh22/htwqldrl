@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="com.drl_Hibernate_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.drl.pojo.ChuyenVienCtsv</class>
+    <class>com.drl.pojo.HocKi</class>
+    <class>com.drl.pojo.HocKiNamHoc</class>
+    <class>com.drl.pojo.TroLySinhVien</class>
+    <class>com.drl.pojo.BaiViet</class>
+    <class>com.drl.pojo.NamHoc</class>
+    <class>com.drl.pojo.Comment</class>
+    <class>com.drl.pojo.Khoa</class>
+    <class>com.drl.pojo.NguoiDung</class>
+    <class>com.drl.pojo.Lop</class>
+    <class>com.drl.pojo.SinhVien</class>
+    <class>com.drl.pojo.HoatDong</class>
+    <class>com.drl.pojo.Dieu</class>
+    <class>com.drl.pojo.SinhVienHoatDong</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/qldrl?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Admin@123"/>
+    </properties>
+  </persistence-unit>
+</persistence>
